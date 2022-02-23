@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #339966;
+}
+
+.back
+{
+    background-color: rgb(0,100,0);
+    text-align: left;
+}
+.s1{
+    text-align: center;
+    padding-top: -20px;
+    padding-left: 200px;
+    padding-right: 400px;
+    top: 25%;
+    
+}
+.s2{
+    text-align: center;
+}
+
+.back ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.back ul li{
+    width: 125px;
+    margin: 12px;
+    padding: 12px;
+}
+.back ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.back ul li:hover
+{
+    background-color: #2bab0d;
+    border-radius: 3px;
+
+}
+
+.back ul li:hover .subhome
+{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+    background :#2bab0d;
+}
+.back ul li:hover .subhome ul
+{
+display: block;
+margin: 10px;
+}
+.back ul li:hover .subhome ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+back ul li:hover .subhome ul li:last-child
+{
+    border-bottom: none;
+}
+.back ul li:hover .subhome ul li a:hover
+{
+    color: black;
+}
+.fas fa-user-plus{
+    margin: 150px;
+    padding: 100px;
+    height: 700px;
+    width: 100%;
+    repat-x;
+    position: absolute;
+}
+.subhome{
+    display: none;
+}
+.slidershow{
+    width: 1100px;
+    height: 300px;
+    overflow: hidden;
+}
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.nav{
+    position: absolute;
+    bottom: 185px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+.bar{
+    width: 50px;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.bar:hover{
+    background: #fff;
+}
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+.slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+.slide{
+    width: 20%;
+    transition: 0.6s;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+#r1:checked ~ .sl1{
+    margin-left:0 ;
+}
+#r2:checked ~ .sl1{
+    margin-left: -25%;
+}
+#r3:checked ~ .sl1{
+    margin-left: -50%;
+}
+#r4:checked ~ .sl1{
+    margin-left: 75%;
+}
+.logo{
+    text-align: left;
+    padding: 0px 0px;
+   text-decoration: none;
+
+}
+.link{
+    margin-top: 450px;
+    
+    padding: 15px;
+
+}
+.link a{
+    text-decoration: none;
+    color: #fff;
+    font-size:large;
+}
+.ilink{
+    
+    padding: 45px;
+    
+    display: inline-flex;
+}
+.ilink a{
+    padding: 15px;
+    margin: 10px;
+    width: 120px;
+
+}
+.name{
+    padding: 45px;
+    list-style: none;
+    display: inline-flex;
+}
+.name li{
+    padding: 15px;
+    margin: 10px;
+    width: 120px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  .limage{
+     
+      padding-left: 1300px;
+      top: 10%;
+      position: absolute;
+      
+      
+        }
+ .sa{
+            padding-left: 1400px;
+            top: 10%;
+            position: absolute;
+            
+              }
