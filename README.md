@@ -1,12 +1,1 @@
-asssssssd ;lkj assdf ;kj asdf llkj ;asdf
-
-
-
-############
-mendunagasaikrishna .
-.....................
-**********************
-((((((((((((((((((()))))))))))))))))))
-&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-hjgdkgdghfkl.g.,dfx
-
+this is a normal web page which did not have any database ,it completly design by using html and css
